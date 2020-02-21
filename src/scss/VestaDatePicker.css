@@ -1,7 +1,9 @@
 ﻿.ui-vestadp-maincontainer .ui-vestadp-container {
+  background-color: #007bff;
+  border-radius: 0.25rem;
+  border: 1px solid #adb5bd;
   padding: 2px;
   width: 250px;
-  border: solid 1px #2668b7;
   font-family: tahoma;
   background-color: #fff; }
   @media (min-width: 0) and (max-width: 480px) {
@@ -10,6 +12,8 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); } }
+  .ui-vestadp-maincontainer .ui-vestadp-container table {
+    border-collapse: separate !important; }
   .ui-vestadp-maincontainer .ui-vestadp-container tbody, .ui-vestadp-maincontainer .ui-vestadp-container td {
     padding: 0px;
     margin: 0px; }
@@ -90,7 +94,8 @@
 
 .ui-vestadp-calendar {
   width: 100%;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  text-align: center; }
 
 .ui-vestadp-weekheader {
   margin-top: 5px;
